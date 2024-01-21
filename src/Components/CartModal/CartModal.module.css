@@ -1,0 +1,330 @@
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modalcontent {
+    background-color: #fefefe;
+    margin: 6% auto; /* 15% from the top and centered */
+
+    padding: 10px 20px 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 1000px; /* Could be more or less, depending on screen size */
+    max-width: 1000px;
+    height: 540px;
+}
+
+
+
+
+ .closebtn{
+    all: unset;
+     font-weight: bold;
+     cursor: pointer;
+     transition: 200ms;
+
+ }
+.closebtn:hover{
+
+    color: red;
+
+}
+
+
+
+.closebtndiv{
+    text-align: right;
+
+}
+
+.headerti{
+    display: flex;
+    align-items: center;
+}
+
+
+.carttitle{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(34, 40, 49, 1);
+}
+
+.cartlogoicon{
+    font-size: 33px;
+    font-weight: bold;
+    color: rgba(34, 40, 49, 1);
+}
+
+
+
+
+
+.ballancediv{
+    display: flex;
+    align-items: center;
+}
+
+
+.accountballancevaluetitle{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.cartlist{
+
+    height: 250px;
+
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
+.cartlist::-webkit-scrollbar {
+    width: 12px; /* Set width of the scrollbar */
+}
+
+/* Style the scrollbar handle */
+.cartlist::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 173, 181, 1); /* Color of the scrollbar handle */
+    border-radius: 6px; /* Round corners of the handle */
+}
+
+/* Style the scrollbar track when handle is being dragged */
+.cartlist::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+/* Style the scrollbar track */
+.cartlist::-webkit-scrollbar-track {
+    background-color: #ddd; /* Color of the scrollbar track */
+    border-radius: 6px; /* Round corners of the track */
+}
+
+/* Style the scrollbar corner (not necessary, but you can customize it) */
+.cartlist::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.footerdiv{
+
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+}
+
+
+.checkoutbtn{
+    all: unset;
+    background-color: rgba(0, 173, 181, 1);
+    color: white;
+    font-size: 26px;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.cartDisabledBtn{
+
+
+        all: unset;
+        background-color: rgba(0, 173, 181, 0.34);
+        color: white;
+        font-size: 26px;
+        padding:10px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: bold;
+        transition: 200ms;
+
+}
+
+
+.checkoutbtn:hover{
+
+    background-color: rgb(13, 105, 110);
+
+}
+.Totalpricetitle{
+
+    margin-bottom: 1px;
+        font-size: 25px;
+    color: red;
+    font-weight: bold;
+    display: flex;
+}
+
+.subfooterdiv{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.clearallbtn{
+
+    all: unset;
+    background-color: rgba(214, 104, 104, 1);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.clearallbtn:hover{
+
+
+    background-color: rgb(252, 75, 75);
+}
+
+.errorrtitle{
+
+    color: rgb(252, 75, 75);
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.usermessageContainer{
+
+    display: grid;
+    place-items: center;
+    padding-top: 40px;
+    transition: 300ms;
+
+}
+
+.listisemptydiv{
+    display: flex;
+    place-items: center;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.emptybasketicon{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.SuccessMessagediv{
+     font-size: 20px;
+    display: block;
+text-align: center;
+    color: green;
+    font-weight: bold;
+    margin-top: 30px;
+
+}
+
+.hrefbtn{
+    all: unset;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.successchecmkaricon{
+
+    font-size: 90px;
+
+}
+.coupondiv{
+
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.couponinput{
+
+
+    color: #000000;
+    border-color: black;
+    font-weight: bold;
+
+
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 4px;
+}
+
+.couponcheckbtn{
+
+    all: unset;
+    background-color: rgba(34, 40, 49, 1);
+    color: white;
+    padding:6px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 200ms;
+    margin-left: 4px;
+
+}
+.disabledCouponbtn{
+    all: unset;
+    background-color: rgba(34, 40, 49, 0.23);
+    color: #ffffff;
+    padding:6px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 200ms;
+    margin-left: 4px;
+
+}
+
+
+
+
+
+.couponcheckbtn:hover{
+
+    background-color: rgb(18, 22, 26);
+
+}
+.couponmessage{
+    color: red;
+
+    font-weight: bold;
+    margin-top: 3px;
+}
+.discountpricemessage{
+
+    color: rgb(31, 104, 112);
+
+    font-weight: bold;
+    margin-top: 3px;
+
+}
+.pricesecinon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.newpricet{
+    margin-left: 20px;
+    
+}
+.currentprice{
+    margin-left: 13px;
+    text-decoration: line-through;
+    color: black;
+}

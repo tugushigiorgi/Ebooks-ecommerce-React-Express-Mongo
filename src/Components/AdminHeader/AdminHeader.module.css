@@ -1,0 +1,146 @@
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.authdul{
+    all: unset;
+    background-color: rgba(0, 185, 174, 1);
+    padding: 6px;
+    display: grid;
+    place-items: center;
+
+
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 100ms;
+    font-size: 10px;
+}
+
+.authdul:hover{
+
+    background-color: rgb(5, 136, 128);
+
+
+}
+
+
+.navliitemscon{
+
+    display: flex;
+
+}
+
+.headertitle{
+    margin-left: 3px;
+
+}
+
+
+
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgba(34, 40, 49, 1);
+
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+
+
+}
+.logo {
+    all: unset;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+
+    background-color: rgba(0, 185, 174, 1);
+    font-size: 26px;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.navelements ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+
+    align-items: center;
+
+}
+
+
+
+.navelements ul a {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navelements ul a.active {
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+}
+
+
+
+
+.navelements ul li  a :hover {
+
+    color: rgba(0, 185, 174, 1);
+
+
+}
+
+
+.signoutbtn{
+    all: unset;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+.navelementdiv{
+
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+

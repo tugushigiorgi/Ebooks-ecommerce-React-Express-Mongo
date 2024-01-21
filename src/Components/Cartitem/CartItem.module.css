@@ -1,0 +1,93 @@
+.itemwrapper{
+
+
+    background-color: rgb(241, 239, 239);
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex; /* Added flex display */
+    align-items: center; /* Vertically center align the content */
+
+    width: 960px;
+    cursor: pointer;
+    height: 90px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+
+
+.content{
+
+    display: flex;
+
+    flex: 1; /* Added flex property to take remaining width */
+
+}
+
+.imgconteiner{
+
+    height: 90px;
+    width: 90px;
+    margin-right: 10px;
+
+}
+
+.booktitle{
+
+    color: rgba(34, 40, 49, 1);
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.removebtn{
+        all: unset;
+    background-color: rgba(214, 104, 104, 1);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 200ms;
+    cursor: pointer;
+}
+.removebtn:hover{
+
+    background-color: rgb(252, 75, 75);
+
+}
+
+.rowt{
+
+    display: flex;
+
+}
+
+.leftse{
+    display: flex;
+    height: 50px;
+    align-items: center;
+        justify-content: space-between;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.booktitle{
+    width: 700px;
+
+
+    height: 80px;
+    margin-right: 20px;
+}
+
+.priceevalue{
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: 20px;
+
+
+
+}

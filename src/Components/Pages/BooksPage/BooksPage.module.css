@@ -1,0 +1,208 @@
+
+
+
+.wrapper{
+        display: grid;
+    place-items: center;
+
+
+
+
+}
+
+.content{
+    display: flex;
+    padding-top: 90px;
+}
+
+.Categoriesbar{
+    width: 320px;
+    height: 770px;
+    background-color: rgba(45, 51, 60, 1);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+    border-radius: 10px;
+        padding-top: 5px;
+}
+
+.Bookcontent{
+    width: 900px;
+    height: 100%;
+
+
+}
+
+.CategoriesHeader{
+    font-size: 25px;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cateogriesicon{
+    position: relative;
+    top: 4px;
+
+}
+
+
+.Categoriesul{
+
+    color: white;
+
+
+}
+
+.Categoriesul li {
+    margin-top: 5px;
+}
+.Categoriesul li button {
+    all: unset;
+    font-size: 20px;
+        cursor: pointer;
+    color: white;
+
+    padding:2px;
+    transition: 200ms;
+
+}
+.Categoriesul li button:hover{
+    background-color: #7a7777;
+
+
+}
+
+
+.searchinput{
+all: unset;
+    width: 700px;
+    height: 40px;
+    color: white;
+    background-color: rgba(57, 62, 70, 0.5);
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left:10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Bookcontent{
+
+
+
+}
+
+.searchwrapper{
+    display: grid;
+    place-items: center;
+}
+
+.searchBtn{
+        all: unset;
+    position: relative;
+    right: 35px;
+    top: 6px;
+    cursor: pointer;
+    color: white;
+
+
+}
+
+.searchBtn :hover{
+    color: #756f6f;
+
+}
+
+.namesorting select{
+    border:none;
+    padding: 10px 20px;
+    border-radius:5px;
+}
+
+.namesorting select:focus{
+    outline:none;
+}
+
+.PriceFiltering{
+    display: flex;
+    margin-left: 10px;
+    min-width: 270px;
+
+}
+
+.Filtrationdiv{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.filterbtn{
+    all: unset;
+    font-size: 18px;
+    background-color: rgba(0, 173, 181, 1);
+    color: white;
+    padding:6px;
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+
+.filterbtn:hover{
+    background-color: rgb(21, 115, 119);
+    
+}
+
+.pricefilteringtitle{
+    color: white;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+.bookslistwrapper{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.pricerangerinput{
+
+
+    accent-color: rgba(0, 173, 181, 1);
+}
+
+
+
+
+
+
+
+.NotFounderror{
+
+    color: white;
+    font-size: 40px;
+    display: block;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+
+.activatedbtn{
+
+   font-weight: bold;
+     transition: 200ms;
+    color: rgba(0, 173, 181, 1);
+
+}
+
+
+
+
+
+

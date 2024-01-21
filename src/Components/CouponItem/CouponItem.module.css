@@ -1,0 +1,57 @@
+.wrapper{
+    background-color: rgba(45, 51, 60, 1);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.leftbar{
+    display: flex;
+
+
+    align-items: center;
+    margin-left: 60px;
+
+
+}
+
+.deletebtn{
+    all: unset;
+    position: relative;
+    left: 80px;
+    background-color: transparent;
+    color: rgba(214, 104, 104, 1);
+    cursor: pointer;
+}
+
+.deletebtn:hover{
+
+    color: rgb(225, 22, 22);
+
+}
+
+
+.codetitle{
+
+    display: grid;
+    place-items: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    width: 120px;
+    max-width: 120px;
+    overflow-x: hidden;
+}
+
+.discouttitle{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+

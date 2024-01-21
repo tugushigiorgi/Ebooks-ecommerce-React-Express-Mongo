@@ -1,0 +1,153 @@
+.content{
+    padding-top: 60px;
+
+}
+
+
+.wrapper{
+    display: grid;
+    place-items: center;
+
+
+}
+
+.container{
+
+    margin-top: 100px;
+    width: 590px;
+    height: 480px;
+
+
+
+
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 20px;
+
+
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+
+}
+
+.headerl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.listitems{
+   height: 340px;
+    overflow-y: auto;
+
+}
+
+
+.listitems::-webkit-scrollbar {
+    width: 3px; /* Set width of the scrollbar */
+}
+
+/* Style the scrollbar handle */
+.listitems::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 173, 181, 1); /* Color of the scrollbar handle */
+    border-radius: 6px; /* Round corners of the handle */
+}
+
+/* Style the scrollbar track when handle is being dragged */
+.listitems::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+/* Style the scrollbar track */
+.listitems::-webkit-scrollbar-track {
+    background-color: #ddd; /* Color of the scrollbar track */
+    border-radius: 6px; /* Round corners of the track */
+}
+
+/* Style the scrollbar corner (not necessary, but you can customize it) */
+.listitems::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+.footerd{
+
+
+    width: 590px;
+    height: 30px;
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+
+.footercontent{
+    display: flex;
+    align-items: center;
+}
+
+.footerdiv{
+    display: flex;
+    align-items: center;
+
+    margin-right: 2px;
+}
+
+
+
+.addbtn{
+    all: unset;
+    font-size: 16px;
+    background-color: rgba(0, 173, 181, 1);
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+cursor: pointer;
+    transition: 200ms;
+    margin-left: 10px;
+
+}
+.addbtn:hover{
+    background-color: rgb(19, 108, 112);
+
+
+}
+
+
+.footertitlee{
+    color: white;
+    font-weight: bold;
+    font-size: 20px ;
+ text-align: center;
+
+}
+
+.inputco{
+
+    all: unset;
+    width:100%;
+    background-color: rgba(57, 62, 70, 0.5);
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5px;
+
+}
+.errorWrapper{
+    height: 30px;
+    max-height: 30px;
+    margin-top: 20px;
+}
+
+.Errordiv{
+    color: red;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}

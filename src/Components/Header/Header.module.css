@@ -1,0 +1,189 @@
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}
+
+.authdul{
+    all: unset;
+    background-color: rgba(0, 185, 174, 1);
+    padding: 6px;
+    display: grid;
+    place-items: center;
+    width: 100px;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.authdul:hover{
+
+    background-color: rgb(5, 136, 128);
+
+
+}
+
+
+.navliitemscon{
+
+    display: flex;
+
+}
+
+.headertitle{
+    cursor: pointer;
+color: white;
+    font-size: 20px;
+}
+
+
+
+
+.container {
+    max-width: 1100px;
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: rgba(34, 40, 49, 1);
+
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+
+
+}
+.logo {
+    all: unset;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+
+
+
+    font-size: 26px;
+
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+
+
+
+
+
+.navelements ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+        width: 600px;
+        max-width: 600px;
+    align-items: center;
+
+}
+
+
+
+.navelements ul a {
+    font-size: 25px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+
+
+
+
+.navelements ul li  a :hover {
+
+    color: rgba(0, 185, 174, 1);
+
+
+}
+
+
+.navbtns{
+
+    all: unset;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.cartBtn{
+    all: unset;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgba(0, 185, 174, 1);
+    color: white;
+    font-weight: bold;
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+
+.cartBtn:hover{
+    background-color: rgb(29, 155, 147);
+
+
+
+}
+
+.headerBtn{
+    all: unset;
+    font-size: 10px;
+
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.headerBtn:hover{
+
+    color: rgba(0, 185, 174, 1);
+
+
+}
+
+
+
+
+.active{
+    color: rgba(0, 185, 174, 1);
+}
+
+.signoutbtn{
+    all: unset;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.ballancediv{
+    display: flex;
+    align-items: center;
+        color: white;
+    width: 70px;
+    margin-right: 10px;
+}
+.ballancetext{
+    margin-left: 3px;
+    font-weight: bold;
+}

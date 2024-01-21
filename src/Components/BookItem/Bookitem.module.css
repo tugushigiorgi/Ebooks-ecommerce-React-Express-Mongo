@@ -1,0 +1,152 @@
+.Mainwrapper{
+
+    position: relative;
+
+
+}
+
+.Container{
+
+
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+ }
+
+
+.Container img {
+    height: 280px;
+    border-radius: 10px;
+    transition: 200ms;
+    width:210px;
+
+}
+
+.Container img:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.Cartbtn{
+    all: unset;
+    position: relative;
+
+    bottom: 59px;
+    left: 122px;
+    background-color: rgba(0, 173, 181, 1);
+  padding: 10px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    place-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.Cartbtn:hover{
+    background-color: rgb(12, 127, 131);
+
+
+}
+
+.adminpriceview{
+
+    all: unset;
+    position: relative;
+
+    bottom: 50px;
+    left: 150px;
+    background-color: rgba(0, 173, 181, 1);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    place-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 500ms;
+    cursor: pointer;
+
+}
+
+
+.Adminheader{
+    display: flex;
+    margin-bottom: 5px;
+}
+.editbtn{
+
+    background-color: rgba(0, 173, 181, 1);
+    color: white;
+    border-color: transparent;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.editbtn:hover{
+
+    background-color: rgb(10, 124, 129);
+}
+
+
+
+.deletebtn{
+
+background-color: rgba(214, 104, 104, 1);
+    color: white;
+    border-color: transparent;
+    border-radius: 7px;
+    margin-left: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.deletebtn:hover{
+    background-color: rgb(194, 28, 28);
+
+
+}
+
+
+.purchased{
+
+    position: relative;
+
+    bottom: 50px;
+    left: 93px;
+    background-color: rgba(0, 173, 181, 1);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    place-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 500ms;
+    cursor: pointer;
+    width: 90px;
+
+}
+
+
+
+.addedtocart{
+
+    position: relative;
+
+    bottom: 50px;
+    left: 76px;
+    background-color: rgba(0, 173, 181, 1);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    place-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 500ms;
+    cursor: pointer;
+    width: 110px;
+
+
+}

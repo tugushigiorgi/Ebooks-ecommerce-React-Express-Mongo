@@ -1,0 +1,109 @@
+.NewEbooks{
+display: flex;
+
+
+}
+.BestSellersEbooks{
+    display: flex;
+    padding:20px;
+}
+.NewEbookContainer{
+
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+.NewEbooksTitle{
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color :rgb(255, 255, 255);
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.content{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+
+    padding-top:29px;
+
+
+}
+.BannerImg{
+
+    width:1673px;
+
+}
+
+
+.Bannerdiv{
+
+
+    height: 380px;
+}
+
+.BannerCouponCodeDiv{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    bottom: 280px;
+    font-family: Impact;
+    font-size: 70px;
+    font-weight: bold;
+    right: 510px;
+    color: rgba(254, 215, 0, 1);
+}
+
+.BannerCouponDiscountDiv{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    bottom: 230px;
+    font-family: Impact;
+    font-size: 90px;
+    font-weight: bold;
+    right: 560px;
+    background: -webkit-linear-gradient(#9dfd48, #178ee1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.booksnotfound{
+
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
