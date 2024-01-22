@@ -74,6 +74,12 @@ you can login with JWT
 
 
 Here is admin pages
+
+you can upload book with all necessary information and also with poster and book file PDF
+<img width="1280" alt="Admin Add new book" src="https://github.com/tugushigiorgi/Ebooks-ecommerce-React-Express-Mongo-Fullstack-Website/assets/92800578/672e79e4-642b-44bf-800c-581584fc8ef9">
+
+
+
 see all books
 Delete if wanted (also book files will be deleted)
 <img width="1280" alt="AdminPage Delete" src="https://github.com/tugushigiorgi/Ebooks-ecommerce-React-Express-Mongo-Fullstack-Website/assets/92800578/1fc6570f-d7f1-42f2-830d-555ff9f580d7">
